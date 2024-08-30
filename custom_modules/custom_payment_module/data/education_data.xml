@@ -1,0 +1,25 @@
+<odoo>
+    <record id="model_education_course" model="ir.model">
+        <field name="name">education.course</field>
+        <field name="model">education.course</field>
+        <field name="state">manual</field>
+    </record>
+
+    <record id="model_education_teacher" model="ir.model">
+        <field name="name">education.teacher</field>
+        <field name="model">education.teacher</field>
+        <field name="state">manual</field>
+    </record>
+
+    <record id="model_education_student" model="ir.model">
+        <field name="name">education.student</field>
+        <field name="model">education.student</field>
+        <field name="state">manual</field>
+    </record>
+
+    <record id="model_education_payment" model="ir.model">
+        <field name="name">education.payment</field>
+        <field name="model">education.payment</field>
+        <field name="state">manual</field>
+    </record>
+</odoo>

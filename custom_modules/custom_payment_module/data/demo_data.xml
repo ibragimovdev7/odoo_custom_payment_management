@@ -1,0 +1,21 @@
+<odoo>
+    <record id="course_mathematics" model="education.course">
+        <field name="name">Math</field>
+        <field name="description">Basic and advanced mathematics courses.</field>
+    </record>
+
+    <record id="course_english" model="education.course">
+        <field name="name">English</field>
+        <field name="description">Beginner to advanced English courses.</field>
+    </record>
+
+    <record id="teacher_john_doe" model="education.teacher">
+        <field name="name">Abdulloh Abdullayev</field>
+        <field name="subject">Math</field>
+    </record>
+
+    <record id="teacher_jane_smith" model="education.teacher">
+        <field name="name">Soliha Abdullayeva</field>
+        <field name="subject">English</field>
+    </record>
+</odoo>
